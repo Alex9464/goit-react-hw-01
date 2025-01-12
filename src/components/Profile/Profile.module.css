@@ -1,7 +1,9 @@
 .profile {
+    text-align: center;
     width: 300px;
     color: #2c2f31;
-    background-color: #f3f6f9;
+    background-color: #fdfaf5;
+    border: 2px solid rgb(179, 179, 179);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
@@ -36,10 +38,11 @@
     margin: 0;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-top: 1px solid #d8d8d8;
+    border-top: 2px solid #d8d8d8;
     list-style: none;
     overflow: hidden;
   }
+
   .item {
     padding: 10px;
     outline: 1px solid #d8d8d8;
