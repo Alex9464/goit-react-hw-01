@@ -2,8 +2,11 @@ import Profile from './components/Profile/Profile';
 import FriendList from './components/FriendList/FriendList';
 import userData from './userData.json';
 import friends from './friends.json';
+import React from 'react';
+import transactions from './transactions.json';
+import TransactionHistory from './components/transactionHistory/TransactionHistory';
 
-const App = () => {
+function App() {
   return (
     <>
       <Profile
@@ -11,11 +14,11 @@ const App = () => {
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
-        stats={userData.stats}
-      />
+        stats={userData.stats} />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
-};
+}
 
 export default App

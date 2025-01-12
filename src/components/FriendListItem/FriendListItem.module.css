@@ -4,8 +4,14 @@
     flex-direction: column;
     text-align: center;
     margin-bottom: 10px;
-    background-color: #f8f3ec;
+    background-color: #fffdfa;
+    cursor: pointer;
     outline: 1px solid rgb(182, 182, 182);
+    transition: box-shadow 400ms ease;
+  }
+
+  .friendItem:hover {
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
   }
   
   .avatar {
